@@ -62,7 +62,7 @@ redirect와 render의 주요한 차이는, redirect는 해당하는 URL로 이�
     // Search for a user matching userId in the test accounts list.
     const user = testIds.find(user => user.userId === userId);
 
-지금부터는 편의상 반존대로 진행하겠습니다. ^^
+지금부터는 편의상 반말로 진행하겠습니다. ^^
 
 지금부터는 post 부분이므로 req에서는 id와 password가 존재할 것이다. 따라서,
 이를 const로 저장해 둔다.
